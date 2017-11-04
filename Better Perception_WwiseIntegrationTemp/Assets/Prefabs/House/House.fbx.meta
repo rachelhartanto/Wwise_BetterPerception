@@ -1,0 +1,372 @@
+fileFormatVersion: 2
+guid: 28cc45abb11a10d4aac683ce7d33bd9b
+timeCreated: 1508610056
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: BackDoor
+    100002: BigRoomBottomFloorDoor
+    100004: BigRoomBottomFloorJoinDoor
+    100006: BigRoomTopFloorClosetDoor
+    100008: Ceilings
+    100010: Door
+    100012: Door 1
+    100014: Door 10
+    100016: Door 11
+    100018: Door 12
+    100020: Door 2
+    100022: Door 3
+    100024: Door 4
+    100026: Door 5
+    100028: Door 6
+    100030: Door 7
+    100032: Door 8
+    100034: Door 9
+    100036: DoorFrames
+    100038: DoorHandle
+    100040: DoorHandle 1
+    100042: DoorHandle 10
+    100044: DoorHandle 11
+    100046: DoorHandle 12
+    100048: DoorHandle 2
+    100050: DoorHandle 3
+    100052: DoorHandle 4
+    100054: DoorHandle 5
+    100056: DoorHandle 6
+    100058: DoorHandle 7
+    100060: DoorHandle 8
+    100062: DoorHandle 9
+    100064: Doors
+    100066: ExteriorWalls
+    100068: Floors
+    100070: Foundation
+    100072: FrontDoor
+    100074: GlassPanes
+    100076: //RootNode
+    100078: InteriorWalls
+    100080: MidRoomTopFloorDoor
+    100082: MiniRoomTopFloorDoor
+    100084: PassageBottomFloorDoor
+    100086: Patio
+    100088: Roofs
+    100090: SideDoor
+    100092: SmallRoomBottomFloorDoor
+    100094: SmallRoomTopFloorDoor
+    100096: SquareRoomBottomFloorDoor
+    100098: TinyRoomTopFloorDoor
+    100100: WallTrim
+    100102: WindowFrames
+    100104: Windows
+    100106: BackDoorGlassPanes
+    100108: FrontDoorGlassPanes
+    100110: SideDoorGlassPanes
+    400000: BackDoor
+    400002: BigRoomBottomFloorDoor
+    400004: BigRoomBottomFloorJoinDoor
+    400006: BigRoomTopFloorClosetDoor
+    400008: Ceilings
+    400010: Door
+    400012: Door 1
+    400014: Door 10
+    400016: Door 11
+    400018: Door 12
+    400020: Door 2
+    400022: Door 3
+    400024: Door 4
+    400026: Door 5
+    400028: Door 6
+    400030: Door 7
+    400032: Door 8
+    400034: Door 9
+    400036: DoorFrames
+    400038: DoorHandle
+    400040: DoorHandle 1
+    400042: DoorHandle 10
+    400044: DoorHandle 11
+    400046: DoorHandle 12
+    400048: DoorHandle 2
+    400050: DoorHandle 3
+    400052: DoorHandle 4
+    400054: DoorHandle 5
+    400056: DoorHandle 6
+    400058: DoorHandle 7
+    400060: DoorHandle 8
+    400062: DoorHandle 9
+    400064: Doors
+    400066: ExteriorWalls
+    400068: Floors
+    400070: Foundation
+    400072: FrontDoor
+    400074: GlassPanes
+    400076: //RootNode
+    400078: InteriorWalls
+    400080: MidRoomTopFloorDoor
+    400082: MiniRoomTopFloorDoor
+    400084: PassageBottomFloorDoor
+    400086: Patio
+    400088: Roofs
+    400090: SideDoor
+    400092: SmallRoomBottomFloorDoor
+    400094: SmallRoomTopFloorDoor
+    400096: SquareRoomBottomFloorDoor
+    400098: TinyRoomTopFloorDoor
+    400100: WallTrim
+    400102: WindowFrames
+    400104: Windows
+    400106: BackDoorGlassPanes
+    400108: FrontDoorGlassPanes
+    400110: SideDoorGlassPanes
+    2300000: Ceilings
+    2300002: Door
+    2300004: Door 1
+    2300006: Door 10
+    2300008: Door 11
+    2300010: Door 12
+    2300012: Door 2
+    2300014: Door 3
+    2300016: Door 4
+    2300018: Door 5
+    2300020: Door 6
+    2300022: Door 7
+    2300024: Door 8
+    2300026: Door 9
+    2300028: DoorFrames
+    2300030: DoorHandle
+    2300032: DoorHandle 1
+    2300034: DoorHandle 10
+    2300036: DoorHandle 11
+    2300038: DoorHandle 12
+    2300040: DoorHandle 2
+    2300042: DoorHandle 3
+    2300044: DoorHandle 4
+    2300046: DoorHandle 5
+    2300048: DoorHandle 6
+    2300050: DoorHandle 7
+    2300052: DoorHandle 8
+    2300054: DoorHandle 9
+    2300056: ExteriorWalls
+    2300058: Floors
+    2300060: Foundation
+    2300062: GlassPanes
+    2300064: InteriorWalls
+    2300066: Patio
+    2300068: Roofs
+    2300070: WallTrim
+    2300072: WindowFrames
+    2300074: Windows
+    2300076: BackDoorGlassPanes
+    2300078: FrontDoorGlassPanes
+    2300080: SideDoorGlassPanes
+    3300000: Ceilings
+    3300002: Door
+    3300004: Door 1
+    3300006: Door 10
+    3300008: Door 11
+    3300010: Door 12
+    3300012: Door 2
+    3300014: Door 3
+    3300016: Door 4
+    3300018: Door 5
+    3300020: Door 6
+    3300022: Door 7
+    3300024: Door 8
+    3300026: Door 9
+    3300028: DoorFrames
+    3300030: DoorHandle
+    3300032: DoorHandle 1
+    3300034: DoorHandle 10
+    3300036: DoorHandle 11
+    3300038: DoorHandle 12
+    3300040: DoorHandle 2
+    3300042: DoorHandle 3
+    3300044: DoorHandle 4
+    3300046: DoorHandle 5
+    3300048: DoorHandle 6
+    3300050: DoorHandle 7
+    3300052: DoorHandle 8
+    3300054: DoorHandle 9
+    3300056: ExteriorWalls
+    3300058: Floors
+    3300060: Foundation
+    3300062: GlassPanes
+    3300064: InteriorWalls
+    3300066: Patio
+    3300068: Roofs
+    3300070: WallTrim
+    3300072: WindowFrames
+    3300074: Windows
+    3300076: BackDoorGlassPanes
+    3300078: FrontDoorGlassPanes
+    3300080: SideDoorGlassPanes
+    4300000: ExteriorWalls
+    4300002: DoorFrames
+    4300004: WallTrim
+    4300006: InteriorWalls
+    4300008: WindowFrames
+    4300010: Foundation
+    4300012: Windows
+    4300014: Floors
+    4300016: Ceilings
+    4300018: Patio
+    4300020: Roofs
+    4300022: GlassPanes
+    4300024: Door
+    4300026: DoorHandle
+    4300028: Door
+    4300030: DoorHandle
+    4300032: Door
+    4300034: DoorHandle
+    4300036: Door
+    4300038: DoorHandle
+    4300040: Door
+    4300042: DoorHandle
+    4300044: Door
+    4300046: DoorHandle
+    4300048: Door
+    4300050: DoorHandle
+    4300052: Door
+    4300054: DoorHandle
+    4300056: Door
+    4300058: DoorHandle
+    4300060: Door
+    4300062: DoorHandle
+    4300064: Door
+    4300066: DoorHandle
+    4300068: Door
+    4300070: DoorHandle
+    4300072: Door
+    4300074: DoorHandle
+    4300076: FrontDoorGlassPanes
+    4300078: BackDoorGlassPanes
+    4300080: SideDoorGlassPanes
+    6400000: Ceilings
+    6400002: Door
+    6400004: Door 1
+    6400006: Door 10
+    6400008: Door 11
+    6400010: Door 12
+    6400012: Door 2
+    6400014: Door 3
+    6400016: Door 4
+    6400018: Door 5
+    6400020: Door 6
+    6400022: Door 7
+    6400024: Door 8
+    6400026: Door 9
+    6400028: DoorFrames
+    6400030: DoorHandle
+    6400032: DoorHandle 1
+    6400034: DoorHandle 10
+    6400036: DoorHandle 11
+    6400038: DoorHandle 12
+    6400040: DoorHandle 2
+    6400042: DoorHandle 3
+    6400044: DoorHandle 4
+    6400046: DoorHandle 5
+    6400048: DoorHandle 6
+    6400050: DoorHandle 7
+    6400052: DoorHandle 8
+    6400054: DoorHandle 9
+    6400056: ExteriorWalls
+    6400058: Floors
+    6400060: Foundation
+    6400062: GlassPanes
+    6400064: InteriorWalls
+    6400066: Patio
+    6400068: Roofs
+    6400070: WallTrim
+    6400072: WindowFrames
+    6400074: Windows
+    6400076: BackDoorGlassPanes
+    6400078: FrontDoorGlassPanes
+    6400080: SideDoorGlassPanes
+    9500000: //RootNode
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Glass_Mat
+    second: {fileID: 2100000, guid: bc14341f6e838e24d93f77d6e738997a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: House_Mat
+    second: {fileID: 2100000, guid: 142c679bea7bfd0459f7247db7863005, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

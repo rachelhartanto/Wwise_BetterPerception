@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationCache Version="1" SchemaVersion="80">
+	<ValidationCacheItem File="C:\Users\ASUS\Documents\Unity_Perception\Better Perception_WwiseIntegrationTemp\Better Perception_WwiseProject\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="3226751160" DateHigh="30624528"/>
+	<ValidationCacheItem File="C:\Users\ASUS\Documents\Unity_Perception\Better Perception_WwiseIntegrationTemp\Better Perception_WwiseProject\Actor-Mixer Hierarchy\FPS Controller.wwu" DateLow="2334605829" DateHigh="30627212"/>
+	<ValidationCacheItem File="C:\Users\ASUS\Documents\Unity_Perception\Better Perception_WwiseIntegrationTemp\Better Perception_WwiseProject\Attenuations\Default Work Unit.wwu" DateLow="645768212" DateHigh="30624519"/>
+	<ValidationCacheItem File="C:\Users\ASUS\Documents\Unity_Perception\Better Perception_WwiseIntegrationTemp\Better Perception_WwiseProject\Audio Devices\Default Work Unit.wwu" DateLow="645672963" DateHigh="30624519"/>
+	<ValidationCacheItem File="C:\Users\ASUS\Documents\Unity_Perception\Better Perception_WwiseIntegrationTemp\Better Perception_WwiseProject\Better Perception_WwiseProject.ASUS.wsettings" DateLow="2286225914" DateHigh="30627209"/>
+	<ValidationCacheItem File="C:\Users\ASUS\Documents\Unity_Perception\Better Perception_WwiseIntegrationTemp\Better Perception_WwiseProject\Better Perception_WwiseProject.wproj" DateLow="952774660" DateHigh="30625455"/>
+	<ValidationCacheItem File="C:\Users\ASUS\Documents\Unity_Perception\Better Perception_WwiseIntegrationTemp\Better Perception_WwiseProject\Control Surface Sessions\Default Work Unit.wwu" DateLow="3226716079" DateHigh="30624528"/>
+	<ValidationCacheItem File="C:\Users\ASUS\Documents\Unity_Perception\Better Perception_WwiseIntegrationTemp\Better Perception_WwiseProject\Conversion Settings\Default Work Unit.wwu" DateLow="645828379" DateHigh="30624519"/>
+	<ValidationCacheItem File="C:\Users\ASUS\Documents\Unity_Perception\Better Perception_WwiseIntegrationTemp\Better Perception_WwiseProject\Conversion Settings\Factory Conversion Settings.wwu" DateLow="3266852986" DateHigh="30624191"/>
+	<ValidationCacheItem File="C:\Users\ASUS\Documents\Unity_Perception\Better Perception_WwiseIntegrationTemp\Better Perception_WwiseProject\Dynamic Dialogue\Default Work Unit.wwu" DateLow="646058999" DateHigh="30624519"/>
+	<ValidationCacheItem File="C:\Users\ASUS\Documents\Unity_Perception\Better Perception_WwiseIntegrationTemp\Better Perception_WwiseProject\Effects\Default Work Unit.wwu" DateLow="645953718" DateHigh="30624519"/>
+	<ValidationCacheItem File="C:\Users\ASUS\Documents\Unity_Perception\Better Perception_WwiseIntegrationTemp\Better Perception_WwiseProject\Effects\Factory Effects.wwu" DateLow="3266887980" DateHigh="30624191"/>
+	<ValidationCacheItem File="C:\Users\ASUS\Documents\Unity_Perception\Better Perception_WwiseIntegrationTemp\Better Perception_WwiseProject\Events\Default Work Unit.wwu" DateLow="1704013357" DateHigh="30624648"/>
+	<ValidationCacheItem File="C:\Users\ASUS\Documents\Unity_Perception\Better Perception_WwiseIntegrationTemp\Better Perception_WwiseProject\Game Parameters\Default Work Unit.wwu" DateLow="645913603" DateHigh="30624519"/>
+	<ValidationCacheItem File="C:\Users\ASUS\Documents\Unity_Perception\Better Perception_WwiseIntegrationTemp\Better Perception_WwiseProject\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="646018892" DateHigh="30624519"/>
+	<ValidationCacheItem File="C:\Users\ASUS\Documents\Unity_Perception\Better Perception_WwiseIntegrationTemp\Better Perception_WwiseProject\Master-Mixer Hierarchy\Default Work Unit.wwu" DateLow="646089062" DateHigh="30624519"/>
+	<ValidationCacheItem File="C:\Users\ASUS\Documents\Unity_Perception\Better Perception_WwiseIntegrationTemp\Better Perception_WwiseProject\Mixing Sessions\Default Work Unit.wwu" DateLow="645808322" DateHigh="30624519"/>
+	<ValidationCacheItem File="C:\Users\ASUS\Documents\Unity_Perception\Better Perception_WwiseIntegrationTemp\Better Perception_WwiseProject\Modulators\Default Work Unit.wwu" DateLow="645743140" DateHigh="30624519"/>
+	<ValidationCacheItem File="C:\Users\ASUS\Documents\Unity_Perception\Better Perception_WwiseIntegrationTemp\Better Perception_WwiseProject\Presets\Default Work Unit.wwu" DateLow="645968760" DateHigh="30624519"/>
+	<ValidationCacheItem File="C:\Users\ASUS\Documents\Unity_Perception\Better Perception_WwiseIntegrationTemp\Better Perception_WwiseProject\Queries\Default Work Unit.wwu" DateLow="645713092" DateHigh="30624519"/>
+	<ValidationCacheItem File="C:\Users\ASUS\Documents\Unity_Perception\Better Perception_WwiseIntegrationTemp\Better Perception_WwiseProject\Queries\Factory Queries.wwu" DateLow="3266913131" DateHigh="30624191"/>
+	<ValidationCacheItem File="C:\Users\ASUS\Documents\Unity_Perception\Better Perception_WwiseIntegrationTemp\Better Perception_WwiseProject\SoundBanks\Default Work Unit.wwu" DateLow="1704033403" DateHigh="30624648"/>
+	<ValidationCacheItem File="C:\Users\ASUS\Documents\Unity_Perception\Better Perception_WwiseIntegrationTemp\Better Perception_WwiseProject\Soundcaster Sessions\Default Work Unit.wwu" DateLow="645994149" DateHigh="30624519"/>
+	<ValidationCacheItem File="C:\Users\ASUS\Documents\Unity_Perception\Better Perception_WwiseIntegrationTemp\Better Perception_WwiseProject\States\Default Work Unit.wwu" DateLow="645933793" DateHigh="30624519"/>
+	<ValidationCacheItem File="C:\Users\ASUS\Documents\Unity_Perception\Better Perception_WwiseIntegrationTemp\Better Perception_WwiseProject\Switches\Default Work Unit.wwu" DateLow="2840970813" DateHigh="30624599"/>
+	<ValidationCacheItem File="C:\Users\ASUS\Documents\Unity_Perception\Better Perception_WwiseIntegrationTemp\Better Perception_WwiseProject\Triggers\Default Work Unit.wwu" DateLow="646043959" DateHigh="30624519"/>
+	<ValidationCacheItem File="C:\Users\ASUS\Documents\Unity_Perception\Better Perception_WwiseIntegrationTemp\Better Perception_WwiseProject\Virtual Acoustics\Default Work Unit.wwu" DateLow="645693016" DateHigh="30624519"/>
+</ValidationCache>

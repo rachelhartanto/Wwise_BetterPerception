@@ -1,0 +1,19 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1866025847	Footstep			\Default Work Unit\Footstep	
+
+Switch Group	ID	Name			Wwise Object Path	Notes
+	2385628198	Footsteps			\Default Work Unit\Footsteps	
+
+Switch	ID	Name	Switch Group			Notes
+	2058049674	Wood	Footsteps			
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	139381781	footsteps_03	C:\Users\ASUS\Documents\Unity_Perception\Better Perception_WwiseIntegrationTemp\Better Perception_WwiseProject\.cache\Mac\SFX\Footsteps\footsteps_03_1C9C67B2.wem		\Actor-Mixer Hierarchy\FPS Controller\Footsteps\Wood\footsteps_03		43700
+	327116532	footsteps_06	C:\Users\ASUS\Documents\Unity_Perception\Better Perception_WwiseIntegrationTemp\Better Perception_WwiseProject\.cache\Mac\SFX\Footsteps\footsteps_06_1C9C67B2.wem		\Actor-Mixer Hierarchy\FPS Controller\Footsteps\Wood\footsteps_06		40676
+	381244562	footsteps_07	C:\Users\ASUS\Documents\Unity_Perception\Better Perception_WwiseIntegrationTemp\Better Perception_WwiseProject\.cache\Mac\SFX\Footsteps\footsteps_07_1C9C67B2.wem		\Actor-Mixer Hierarchy\FPS Controller\Footsteps\Wood\footsteps_07		34164
+	439342177	footsteps_02	C:\Users\ASUS\Documents\Unity_Perception\Better Perception_WwiseIntegrationTemp\Better Perception_WwiseProject\.cache\Mac\SFX\Footsteps\footsteps_02_1C9C67B2.wem		\Actor-Mixer Hierarchy\FPS Controller\Footsteps\Wood\footsteps_02		45204
+	474585535	footsteps_01	C:\Users\ASUS\Documents\Unity_Perception\Better Perception_WwiseIntegrationTemp\Better Perception_WwiseProject\.cache\Mac\SFX\Footsteps\footsteps_01_1C9C67B2.wem		\Actor-Mixer Hierarchy\FPS Controller\Footsteps\Wood\footsteps_01		40212
+	684903310	footsteps_04	C:\Users\ASUS\Documents\Unity_Perception\Better Perception_WwiseIntegrationTemp\Better Perception_WwiseProject\.cache\Mac\SFX\Footsteps\footsteps_04_1C9C67B2.wem		\Actor-Mixer Hierarchy\FPS Controller\Footsteps\Wood\footsteps_04		47716
+	805749398	footsteps_08	C:\Users\ASUS\Documents\Unity_Perception\Better Perception_WwiseIntegrationTemp\Better Perception_WwiseProject\.cache\Mac\SFX\Footsteps\footsteps_08_1C9C67B2.wem		\Actor-Mixer Hierarchy\FPS Controller\Footsteps\Wood\footsteps_08		42068
+	923878994	footsteps_05	C:\Users\ASUS\Documents\Unity_Perception\Better Perception_WwiseIntegrationTemp\Better Perception_WwiseProject\.cache\Mac\SFX\Footsteps\footsteps_05_1C9C67B2.wem		\Actor-Mixer Hierarchy\FPS Controller\Footsteps\Wood\footsteps_05		43716
+

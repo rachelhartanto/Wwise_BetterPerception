@@ -1,0 +1,480 @@
+-debug
+-target:library
+-nowarn:0169
+-langversion:4
+-out:Temp/Assembly-CSharp.dll
+-unsafe
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.CoreModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AccessibilityModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.ParticleSystemModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.PhysicsModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.VehiclesModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.ClothModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AnimationModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.TextRenderingModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UIModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.TerrainPhysicsModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.IMGUIModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestAudioModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestTextureModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestWWWModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.ClusterInputModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.ClusterRendererModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UNETModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.DirectorModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UnityAnalyticsModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.CrashReportingModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.PerformanceReportingModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UnityConnectModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.WebModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.ARModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.VRModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UIElementsModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.StyleSheetsModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AudioModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.GameCenterModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.GridModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.ImageConversionModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.InputModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.JSONSerializeModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.ParticlesLegacyModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.Physics2DModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.ScreenCaptureModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.SpriteMaskModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.TerrainModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.TilemapModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.VideoModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.WindModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/TestRunner/UnityEngine.TestRunner.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/TestRunner/net35/unity-custom/nunit.framework.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Timeline/RuntimeEditor/UnityEngine.Timeline.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UIAutomation/UnityEngine.UIAutomation.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityGoogleAudioSpatializer/RuntimeEditor/UnityEngine.GoogleAudioSpatializer.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll"
+-r:C:/Users/ASUS/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.analytics@1.0.1/UnityEngine.Analytics.dll
+-r:C:/Users/ASUS/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.purchasing@1.0.1/UnityEngine.Purchasing.dll
+-define:UNITY_5_3_OR_NEWER
+-define:UNITY_5_4_OR_NEWER
+-define:UNITY_5_5_OR_NEWER
+-define:UNITY_5_6_OR_NEWER
+-define:UNITY_2017_1_OR_NEWER
+-define:UNITY_2017_2_OR_NEWER
+-define:UNITY_2017_2_0
+-define:UNITY_2017_2
+-define:UNITY_2017
+-define:PLATFORM_ARCH_64
+-define:UNITY_64
+-define:UNITY_ANALYTICS
+-define:ENABLE_AUDIO
+-define:ENABLE_CACHING
+-define:ENABLE_CLOTH
+-define:ENABLE_DUCK_TYPING
+-define:ENABLE_GENERICS
+-define:ENABLE_PVR_GI
+-define:ENABLE_MICROPHONE
+-define:ENABLE_MULTIPLE_DISPLAYS
+-define:ENABLE_PHYSICS
+-define:ENABLE_SPRITERENDERER_FLIPPING
+-define:ENABLE_SPRITES
+-define:ENABLE_GRID
+-define:ENABLE_TILEMAP
+-define:ENABLE_TERRAIN
+-define:ENABLE_RAKNET
+-define:ENABLE_DIRECTOR
+-define:ENABLE_UNET
+-define:ENABLE_LZMA
+-define:ENABLE_UNITYEVENTS
+-define:ENABLE_WEBCAM
+-define:ENABLE_WWW
+-define:ENABLE_CLOUD_SERVICES_COLLAB
+-define:ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS
+-define:ENABLE_CLOUD_SERVICES_ADS
+-define:ENABLE_CLOUD_HUB
+-define:ENABLE_CLOUD_PROJECT_ID
+-define:ENABLE_CLOUD_SERVICES_USE_WEBREQUEST
+-define:ENABLE_CLOUD_SERVICES_UNET
+-define:ENABLE_CLOUD_SERVICES_BUILD
+-define:ENABLE_CLOUD_LICENSE
+-define:ENABLE_EDITOR_HUB
+-define:ENABLE_EDITOR_HUB_LICENSE
+-define:ENABLE_WEBSOCKET_CLIENT
+-define:ENABLE_DIRECTOR_AUDIO
+-define:ENABLE_TIMELINE
+-define:ENABLE_EDITOR_METRICS
+-define:ENABLE_EDITOR_METRICS_CACHING
+-define:ENABLE_NATIVE_ARRAY
+-define:ENABLE_SPRITE_MASKING
+-define:INCLUDE_DYNAMIC_GI
+-define:INCLUDE_GI
+-define:ENABLE_MONO_BDWGC
+-define:PLATFORM_SUPPORTS_MONO
+-define:RENDER_SOFTWARE_CURSOR
+-define:INCLUDE_PUBNUB
+-define:ENABLE_PLAYMODE_TESTS_RUNNER
+-define:ENABLE_VIDEO
+-define:ENABLE_RMGUI
+-define:ENABLE_PACKMAN
+-define:ENABLE_CUSTOM_RENDER_TEXTURE
+-define:ENABLE_STYLE_SHEETS
+-define:PLATFORM_STANDALONE_WIN
+-define:PLATFORM_STANDALONE
+-define:UNITY_STANDALONE_WIN
+-define:UNITY_STANDALONE
+-define:ENABLE_SUBSTANCE
+-define:ENABLE_RUNTIME_GI
+-define:ENABLE_MOVIES
+-define:ENABLE_NETWORK
+-define:ENABLE_CRUNCH_TEXTURE_COMPRESSION
+-define:ENABLE_UNITYWEBREQUEST
+-define:ENABLE_CLOUD_SERVICES
+-define:ENABLE_CLOUD_SERVICES_ANALYTICS
+-define:ENABLE_CLOUD_SERVICES_PURCHASING
+-define:ENABLE_CLOUD_SERVICES_CRASH_REPORTING
+-define:ENABLE_EVENT_QUEUE
+-define:ENABLE_CLUSTERINPUT
+-define:ENABLE_VR
+-define:ENABLE_AR
+-define:ENABLE_SPATIALTRACKING
+-define:ENABLE_WEBSOCKET_HOST
+-define:ENABLE_MONO
+-define:NET_2_0_SUBSET
+-define:ENABLE_PROFILER
+-define:DEBUG
+-define:TRACE
+-define:UNITY_ASSERTIONS
+-define:UNITY_EDITOR
+-define:UNITY_EDITOR_64
+-define:UNITY_EDITOR_WIN
+-define:ENABLE_NATIVE_ARRAY_CHECKS
+-define:UNITY_TEAM_LICENSE
+-define:ENABLE_VSTU
+Assets/Audio/OvrAvatar/Samples/GripPoses/Scripts/PoseEditHelper.cs
+Assets/Audio/OvrAvatar/Samples/RemoteLoopback/Scripts/RemoteLoopbackManager.cs
+Assets/Audio/OvrAvatar/Samples/SocialStarter/Assets/Scripts/P2PManager.cs
+Assets/Audio/OvrAvatar/Samples/SocialStarter/Assets/Scripts/PlatformManager.cs
+Assets/Audio/OvrAvatar/Samples/SocialStarter/Assets/Scripts/PlayerController.cs
+Assets/Audio/OvrAvatar/Samples/SocialStarter/Assets/Scripts/RemotePlayer.cs
+Assets/Audio/OvrAvatar/Samples/SocialStarter/Assets/Scripts/RoomManager.cs
+Assets/Audio/OvrAvatar/Samples/SocialStarter/Assets/Scripts/VoipManager.cs
+Assets/Audio/OvrAvatar/Scripts/OvrAvatar.cs
+Assets/Audio/OvrAvatar/Scripts/OvrAvatarAsset.cs
+Assets/Audio/OvrAvatar/Scripts/OvrAvatarAssetMesh.cs
+Assets/Audio/OvrAvatar/Scripts/OvrAvatarAssetTexture.cs
+Assets/Audio/OvrAvatar/Scripts/OvrAvatarBase.cs
+Assets/Audio/OvrAvatar/Scripts/OvrAvatarBody.cs
+Assets/Audio/OvrAvatar/Scripts/OvrAvatarComponent.cs
+Assets/Audio/OvrAvatar/Scripts/OvrAvatarDriver.cs
+Assets/Audio/OvrAvatar/Scripts/OvrAvatarHand.cs
+Assets/Audio/OvrAvatar/Scripts/OvrAvatarLocalDriver.cs
+Assets/Audio/OvrAvatar/Scripts/OvrAvatarMeshInstance.cs
+Assets/Audio/OvrAvatar/Scripts/OvrAvatarPacket.cs
+Assets/Audio/OvrAvatar/Scripts/OvrAvatarProjectorRenderComponent.cs
+Assets/Audio/OvrAvatar/Scripts/OvrAvatarRemoteDriver.cs
+Assets/Audio/OvrAvatar/Scripts/OvrAvatarRenderComponent.cs
+Assets/Audio/OvrAvatar/Scripts/OvrAvatarSDKCAPI.cs
+Assets/Audio/OvrAvatar/Scripts/OvrAvatarSDKManager.cs
+Assets/Audio/OvrAvatar/Scripts/OvrAvatarSettings.cs
+Assets/Audio/OvrAvatar/Scripts/OvrAvatarSettingsEditor.cs
+Assets/Audio/OvrAvatar/Scripts/OvrAvatarSkinnedMeshRenderComponent.cs
+Assets/Audio/OvrAvatar/Scripts/OvrAvatarSkinnedMeshRenderPBSComponent.cs
+Assets/Audio/OvrAvatar/Scripts/OvrAvatarTouchController.cs
+"Assets/Oculus Integration/OculusPlatform/Scripts/AchievementType.cs"
+"Assets/Oculus Integration/OculusPlatform/Scripts/AndroidPlatform.cs"
+"Assets/Oculus Integration/OculusPlatform/Scripts/BufferedAudioStream.cs"
+"Assets/Oculus Integration/OculusPlatform/Scripts/Callback.cs"
+"Assets/Oculus Integration/OculusPlatform/Scripts/CallbackRunner.cs"
+"Assets/Oculus Integration/OculusPlatform/Scripts/CAPI.cs"
+"Assets/Oculus Integration/OculusPlatform/Scripts/CloudStorageDataStatus.cs"
+"Assets/Oculus Integration/OculusPlatform/Scripts/CloudStorageUpdateStatus.cs"
+"Assets/Oculus Integration/OculusPlatform/Scripts/Decoder.cs"
+"Assets/Oculus Integration/OculusPlatform/Scripts/Encoder.cs"
+"Assets/Oculus Integration/OculusPlatform/Scripts/IMicrophone.cs"
+"Assets/Oculus Integration/OculusPlatform/Scripts/IVoipPCMSource.cs"
+"Assets/Oculus Integration/OculusPlatform/Scripts/KeyValuePairType.cs"
+"Assets/Oculus Integration/OculusPlatform/Scripts/LaunchType.cs"
+"Assets/Oculus Integration/OculusPlatform/Scripts/LeaderboardFilterType.cs"
+"Assets/Oculus Integration/OculusPlatform/Scripts/LeaderboardStartAt.cs"
+"Assets/Oculus Integration/OculusPlatform/Scripts/LivestreamingAudience.cs"
+"Assets/Oculus Integration/OculusPlatform/Scripts/LivestreamingMicrophoneStatus.cs"
+"Assets/Oculus Integration/OculusPlatform/Scripts/LivestreamingStartStatus.cs"
+"Assets/Oculus Integration/OculusPlatform/Scripts/MatchmakingCriterionImportance.cs"
+"Assets/Oculus Integration/OculusPlatform/Scripts/MatchmakingOptions.cs"
+"Assets/Oculus Integration/OculusPlatform/Scripts/MatchmakingStatApproach.cs"
+"Assets/Oculus Integration/OculusPlatform/Scripts/Message.cs"
+"Assets/Oculus Integration/OculusPlatform/Scripts/MicrophoneInput.cs"
+"Assets/Oculus Integration/OculusPlatform/Scripts/MicrophoneInputNative.cs"
+"Assets/Oculus Integration/OculusPlatform/Scripts/Models/AchievementDefinition.cs"
+"Assets/Oculus Integration/OculusPlatform/Scripts/Models/AchievementProgress.cs"
+"Assets/Oculus Integration/OculusPlatform/Scripts/Models/AchievementUpdate.cs"
+"Assets/Oculus Integration/OculusPlatform/Scripts/Models/ApplicationVersion.cs"
+"Assets/Oculus Integration/OculusPlatform/Scripts/Models/CloudStorageConflictMetadata.cs"
+"Assets/Oculus Integration/OculusPlatform/Scripts/Models/CloudStorageData.cs"
+"Assets/Oculus Integration/OculusPlatform/Scripts/Models/CloudStorageMetadata.cs"
+"Assets/Oculus Integration/OculusPlatform/Scripts/Models/CloudStorageUpdateResponse.cs"
+"Assets/Oculus Integration/OculusPlatform/Scripts/Models/DeserializeableList.cs"
+"Assets/Oculus Integration/OculusPlatform/Scripts/Models/Error.cs"
+"Assets/Oculus Integration/OculusPlatform/Scripts/Models/HttpTransferUpdate.cs"
+"Assets/Oculus Integration/OculusPlatform/Scripts/Models/InstalledApplication.cs"
+"Assets/Oculus Integration/OculusPlatform/Scripts/Models/LaunchDetails.cs"
+"Assets/Oculus Integration/OculusPlatform/Scripts/Models/LeaderboardEntry.cs"
+"Assets/Oculus Integration/OculusPlatform/Scripts/Models/LivestreamingApplicationStatus.cs"
+"Assets/Oculus Integration/OculusPlatform/Scripts/Models/LivestreamingStartResult.cs"
+"Assets/Oculus Integration/OculusPlatform/Scripts/Models/LivestreamingStatus.cs"
+"Assets/Oculus Integration/OculusPlatform/Scripts/Models/LivestreamingVideoStats.cs"
+"Assets/Oculus Integration/OculusPlatform/Scripts/Models/MatchmakingAdminSnapshot.cs"
+"Assets/Oculus Integration/OculusPlatform/Scripts/Models/MatchmakingAdminSnapshotCandidate.cs"
+"Assets/Oculus Integration/OculusPlatform/Scripts/Models/MatchmakingBrowseResult.cs"
+"Assets/Oculus Integration/OculusPlatform/Scripts/Models/MatchmakingEnqueuedUser.cs"
+"Assets/Oculus Integration/OculusPlatform/Scripts/Models/MatchmakingEnqueueResult.cs"
+"Assets/Oculus Integration/OculusPlatform/Scripts/Models/MatchmakingEnqueueResultAndRoom.cs"
+"Assets/Oculus Integration/OculusPlatform/Scripts/Models/MatchmakingStats.cs"
+"Assets/Oculus Integration/OculusPlatform/Scripts/Models/NetworkingPeer.cs"
+"Assets/Oculus Integration/OculusPlatform/Scripts/Models/OrgScopedID.cs"
+"Assets/Oculus Integration/OculusPlatform/Scripts/Models/Party.cs"
+"Assets/Oculus Integration/OculusPlatform/Scripts/Models/PartyID.cs"
+"Assets/Oculus Integration/OculusPlatform/Scripts/Models/Pid.cs"
+"Assets/Oculus Integration/OculusPlatform/Scripts/Models/PingResult.cs"
+"Assets/Oculus Integration/OculusPlatform/Scripts/Models/PlatformInitialize.cs"
+"Assets/Oculus Integration/OculusPlatform/Scripts/Models/Product.cs"
+"Assets/Oculus Integration/OculusPlatform/Scripts/Models/Purchase.cs"
+"Assets/Oculus Integration/OculusPlatform/Scripts/Models/Room.cs"
+"Assets/Oculus Integration/OculusPlatform/Scripts/Models/RoomInviteNotification.cs"
+"Assets/Oculus Integration/OculusPlatform/Scripts/Models/SdkAccount.cs"
+"Assets/Oculus Integration/OculusPlatform/Scripts/Models/SystemPermission.cs"
+"Assets/Oculus Integration/OculusPlatform/Scripts/Models/SystemVoipState.cs"
+"Assets/Oculus Integration/OculusPlatform/Scripts/Models/User.cs"
+"Assets/Oculus Integration/OculusPlatform/Scripts/Models/UserAndRoom.cs"
+"Assets/Oculus Integration/OculusPlatform/Scripts/Models/UserProof.cs"
+"Assets/Oculus Integration/OculusPlatform/Scripts/Packet.cs"
+"Assets/Oculus Integration/OculusPlatform/Scripts/PeerConnectionState.cs"
+"Assets/Oculus Integration/OculusPlatform/Scripts/PermissionGrantStatus.cs"
+"Assets/Oculus Integration/OculusPlatform/Scripts/PermissionType.cs"
+"Assets/Oculus Integration/OculusPlatform/Scripts/Platform.cs"
+"Assets/Oculus Integration/OculusPlatform/Scripts/PlatformInitializeResult.cs"
+"Assets/Oculus Integration/OculusPlatform/Scripts/PlatformInternal.cs"
+"Assets/Oculus Integration/OculusPlatform/Scripts/PlatformSettings.cs"
+"Assets/Oculus Integration/OculusPlatform/Scripts/Request.cs"
+"Assets/Oculus Integration/OculusPlatform/Scripts/RoomJoinability.cs"
+"Assets/Oculus Integration/OculusPlatform/Scripts/RoomJoinPolicy.cs"
+"Assets/Oculus Integration/OculusPlatform/Scripts/RoomMembershipLockStatus.cs"
+"Assets/Oculus Integration/OculusPlatform/Scripts/RoomOptions.cs"
+"Assets/Oculus Integration/OculusPlatform/Scripts/RoomType.cs"
+"Assets/Oculus Integration/OculusPlatform/Scripts/SdkAccountType.cs"
+"Assets/Oculus Integration/OculusPlatform/Scripts/SendPolicy.cs"
+"Assets/Oculus Integration/OculusPlatform/Scripts/StandalonePlatform.cs"
+"Assets/Oculus Integration/OculusPlatform/Scripts/StandalonePlatformSettings.cs"
+"Assets/Oculus Integration/OculusPlatform/Scripts/SystemVoipStatus.cs"
+"Assets/Oculus Integration/OculusPlatform/Scripts/TimeWindow.cs"
+"Assets/Oculus Integration/OculusPlatform/Scripts/UserOptions.cs"
+"Assets/Oculus Integration/OculusPlatform/Scripts/UserOrdering.cs"
+"Assets/Oculus Integration/OculusPlatform/Scripts/UserPresenceStatus.cs"
+"Assets/Oculus Integration/OculusPlatform/Scripts/VoipAudioSource.cs"
+"Assets/Oculus Integration/OculusPlatform/Scripts/VoipAudioSourceHiLevel.cs"
+"Assets/Oculus Integration/OculusPlatform/Scripts/VoipInput.cs"
+"Assets/Oculus Integration/OculusPlatform/Scripts/VoipMuteState.cs"
+"Assets/Oculus Integration/OculusPlatform/Scripts/VoipPCMSourceNative.cs"
+"Assets/Oculus Integration/OculusPlatform/Scripts/VoipSampleRate.cs"
+"Assets/Oculus Integration/OculusPlatform/Scripts/WindowsPlatform.cs"
+"Assets/Oculus Integration/OSPNative/scenes/Standard Assets/Character Controllers/Sources/Scripts/MouseLook.cs"
+"Assets/Oculus Integration/OSPNative/scripts/helpers/ONSPReflectionZone.cs"
+"Assets/Oculus Integration/OSPNative/scripts/ONSPAmbisonicsNative.cs"
+"Assets/Oculus Integration/OSPNative/scripts/ONSPAudioSource.cs"
+"Assets/Oculus Integration/OSPNative/scripts/ONSPProfiler.cs"
+"Assets/Oculus Integration/OSPNative/scripts/ONSPVersion.cs"
+"Assets/Oculus Integration/OVR/Scripts/Composition/OVRCameraComposition.cs"
+"Assets/Oculus Integration/OVR/Scripts/Composition/OVRComposition.cs"
+"Assets/Oculus Integration/OVR/Scripts/Composition/OVRCompositionUtil.cs"
+"Assets/Oculus Integration/OVR/Scripts/Composition/OVRDirectComposition.cs"
+"Assets/Oculus Integration/OVR/Scripts/Composition/OVRExternalComposition.cs"
+"Assets/Oculus Integration/OVR/Scripts/Composition/OVRSandwichComposition.cs"
+"Assets/Oculus Integration/OVR/Scripts/OVRBoundary.cs"
+"Assets/Oculus Integration/OVR/Scripts/OVRCameraRig.cs"
+"Assets/Oculus Integration/OVR/Scripts/OVRCommon.cs"
+"Assets/Oculus Integration/OVR/Scripts/OVRDebugHeadController.cs"
+"Assets/Oculus Integration/OVR/Scripts/OVRDisplay.cs"
+"Assets/Oculus Integration/OVR/Scripts/OVRHaptics.cs"
+"Assets/Oculus Integration/OVR/Scripts/OVRHapticsClip.cs"
+"Assets/Oculus Integration/OVR/Scripts/OVRInput.cs"
+"Assets/Oculus Integration/OVR/Scripts/OVRLayerAttribute.cs"
+"Assets/Oculus Integration/OVR/Scripts/OVRLint.cs"
+"Assets/Oculus Integration/OVR/Scripts/OVRManager.cs"
+"Assets/Oculus Integration/OVR/Scripts/OVRMixedReality.cs"
+"Assets/Oculus Integration/OVR/Scripts/OVROnCompleteListener.cs"
+"Assets/Oculus Integration/OVR/Scripts/OVROverlay.cs"
+"Assets/Oculus Integration/OVR/Scripts/OVRPlatformMenu.cs"
+"Assets/Oculus Integration/OVR/Scripts/OVRPlugin.cs"
+"Assets/Oculus Integration/OVR/Scripts/OVRProfile.cs"
+"Assets/Oculus Integration/OVR/Scripts/OVRTouchpad.cs"
+"Assets/Oculus Integration/OVR/Scripts/OVRTracker.cs"
+"Assets/Oculus Integration/OVR/Scripts/Util/OVRChromaticAberration.cs"
+"Assets/Oculus Integration/OVR/Scripts/Util/OVRCubemapCapture.cs"
+"Assets/Oculus Integration/OVR/Scripts/Util/OVRDebugInfo.cs"
+"Assets/Oculus Integration/OVR/Scripts/Util/OVRGearVrController.cs"
+"Assets/Oculus Integration/OVR/Scripts/Util/OVRGearVrControllerTest.cs"
+"Assets/Oculus Integration/OVR/Scripts/Util/OVRGrabbable.cs"
+"Assets/Oculus Integration/OVR/Scripts/Util/OVRGrabber.cs"
+"Assets/Oculus Integration/OVR/Scripts/Util/OVRGridCube.cs"
+"Assets/Oculus Integration/OVR/Scripts/Util/OVRMixedRealityCaptureSettings.cs"
+"Assets/Oculus Integration/OVR/Scripts/Util/OVRModeParms.cs"
+"Assets/Oculus Integration/OVR/Scripts/Util/OVRMonoscopic.cs"
+"Assets/Oculus Integration/OVR/Scripts/Util/OVRPlayerController.cs"
+"Assets/Oculus Integration/OVR/Scripts/Util/OVRResetOrientation.cs"
+"Assets/Oculus Integration/OVR/Scripts/Util/OVRRTOverlayConnector.cs"
+"Assets/Oculus Integration/OVR/Scripts/Util/OVRSceneSampleController.cs"
+"Assets/Oculus Integration/OVR/Scripts/Util/OVRScreenFade.cs"
+"Assets/Oculus Integration/OVR/Scripts/Util/OVRWaitCursor.cs"
+"Assets/Oculus Integration/OVRAudioManager/Scenes/Scripts/TestScript.cs"
+"Assets/Oculus Integration/OVRAudioManager/Scripts/Audio/AmbienceEmitter.cs"
+"Assets/Oculus Integration/OVRAudioManager/Scripts/Audio/AudioManager.cs"
+"Assets/Oculus Integration/OVRAudioManager/Scripts/Audio/AudioManager_Sound.cs"
+"Assets/Oculus Integration/OVRAudioManager/Scripts/Audio/MinMaxAttribute.cs"
+"Assets/Oculus Integration/OVRAudioManager/Scripts/Audio/SoundEmitter.cs"
+"Assets/Oculus Integration/OVRAudioManager/Scripts/Audio/SoundFX.cs"
+"Assets/Oculus Integration/OVRAudioManager/Scripts/Audio/SoundFXRef.cs"
+"Assets/Oculus Integration/OVRAudioManager/Scripts/Utils/FastList.cs"
+"Assets/Oculus Integration/OVRAudioManager/Scripts/Utils/InspectorNoteAttribute.cs"
+Assets/Scripts/ConditionalHideAttribute.cs
+Assets/Scripts/Detection.cs
+Assets/Scripts/Door.cs
+Assets/Scripts/Footsteps.cs
+"Assets/Sonar/Scanner Effect/ScannerEffectDemo.cs"
+"Assets/Sonar/Scanner Effect/SonarEffect.cs"
+Assets/Sonar/WorkingScanner/rippleBehavior.cs
+Assets/Wwise/Deployment/API/Generated/Common/_ArrayPoolDefault.cs
+Assets/Wwise/Deployment/API/Generated/Common/_ArrayPoolLEngineDefault.cs
+Assets/Wwise/Deployment/API/Generated/Common/AkActionOnEventType.cs
+Assets/Wwise/Deployment/API/Generated/Common/AkAudioDeviceState.cs
+Assets/Wwise/Deployment/API/Generated/Common/AkAudioFormat.cs
+Assets/Wwise/Deployment/API/Generated/Common/AkAudioInterruptionCallbackInfo.cs
+Assets/Wwise/Deployment/API/Generated/Common/AkAudioSettings.cs
+Assets/Wwise/Deployment/API/Generated/Common/AkAudioSourceChangeCallbackInfo.cs
+Assets/Wwise/Deployment/API/Generated/Common/AkAuxSendValue.cs
+Assets/Wwise/Deployment/API/Generated/Common/AkAuxSendValueProxy.cs
+Assets/Wwise/Deployment/API/Generated/Common/AkBankCallbackInfo.cs
+Assets/Wwise/Deployment/API/Generated/Common/AkBankContent.cs
+Assets/Wwise/Deployment/API/Generated/Common/AkBusHierarchyFlags.cs
+Assets/Wwise/Deployment/API/Generated/Common/AkCallbackInfo.cs
+Assets/Wwise/Deployment/API/Generated/Common/AkCallbackSerializer.cs
+Assets/Wwise/Deployment/API/Generated/Common/AkCallbackType.cs
+Assets/Wwise/Deployment/API/Generated/Common/AkChannelConfig.cs
+Assets/Wwise/Deployment/API/Generated/Common/AkChannelConfigType.cs
+Assets/Wwise/Deployment/API/Generated/Common/AkChannelEmitter.cs
+Assets/Wwise/Deployment/API/Generated/Common/AkChannelEmitterEx.cs
+Assets/Wwise/Deployment/API/Generated/Common/AkChannelOrdering.cs
+Assets/Wwise/Deployment/API/Generated/Common/AkConnectionType.cs
+Assets/Wwise/Deployment/API/Generated/Common/AkCurveInterpolation.cs
+Assets/Wwise/Deployment/API/Generated/Common/AkDeviceSettings.cs
+Assets/Wwise/Deployment/API/Generated/Common/AkDurationCallbackInfo.cs
+Assets/Wwise/Deployment/API/Generated/Common/AkDynamicSequenceItemCallbackInfo.cs
+Assets/Wwise/Deployment/API/Generated/Common/AkEventCallbackInfo.cs
+Assets/Wwise/Deployment/API/Generated/Common/AkExternalSourceInfo.cs
+Assets/Wwise/Deployment/API/Generated/Common/AkGlobalCallbackLocation.cs
+Assets/Wwise/Deployment/API/Generated/Common/AkGroupType.cs
+Assets/Wwise/Deployment/API/Generated/Common/AkInitSettings.cs
+Assets/Wwise/Deployment/API/Generated/Common/AkMarkerCallbackInfo.cs
+Assets/Wwise/Deployment/API/Generated/Common/AkMemSettings.cs
+Assets/Wwise/Deployment/API/Generated/Common/AkMeteringFlags.cs
+Assets/Wwise/Deployment/API/Generated/Common/AkMIDIEventCallbackInfo.cs
+Assets/Wwise/Deployment/API/Generated/Common/AkMIDIPost.cs
+Assets/Wwise/Deployment/API/Generated/Common/AkMonitoringCallbackInfo.cs
+Assets/Wwise/Deployment/API/Generated/Common/AkMusicPlaylistCallbackInfo.cs
+Assets/Wwise/Deployment/API/Generated/Common/AkMusicSettings.cs
+Assets/Wwise/Deployment/API/Generated/Common/AkMusicSyncCallbackInfo.cs
+Assets/Wwise/Deployment/API/Generated/Common/AkNodeType.cs
+Assets/Wwise/Deployment/API/Generated/Common/AkObjectInfo.cs
+Assets/Wwise/Deployment/API/Generated/Common/AkObstructionOcclusionValues.cs
+Assets/Wwise/Deployment/API/Generated/Common/AkOutputSettings.cs
+Assets/Wwise/Deployment/API/Generated/Common/AkPannerType.cs
+Assets/Wwise/Deployment/API/Generated/Common/AkPanningRule.cs
+Assets/Wwise/Deployment/API/Generated/Common/AkPlaylistArray.cs
+Assets/Wwise/Deployment/API/Generated/Common/AkPluginType.cs
+Assets/Wwise/Deployment/API/Generated/Common/AkPositioningInfo.cs
+Assets/Wwise/Deployment/API/Generated/Common/AkPositionSourceType.cs
+Assets/Wwise/Deployment/API/Generated/Common/AkRamp.cs
+Assets/Wwise/Deployment/API/Generated/Common/AKRESULT.cs
+Assets/Wwise/Deployment/API/Generated/Common/AkSegmentInfo.cs
+Assets/Wwise/Deployment/API/Generated/Common/AkSerializedCallbackHeader.cs
+Assets/Wwise/Deployment/API/Generated/Common/AkSourceChannelOrdering.cs
+Assets/Wwise/Deployment/API/Generated/Common/AkSourceSettings.cs
+Assets/Wwise/Deployment/API/Generated/Common/AkStreamMgrSettings.cs
+Assets/Wwise/Deployment/API/Generated/Common/AkTransform.cs
+Assets/Wwise/Deployment/API/Generated/Common/AkVector.cs
+Assets/Wwise/Deployment/API/Generated/Common/DynamicSequenceType.cs
+Assets/Wwise/Deployment/API/Generated/Common/EnvelopePoint.cs
+Assets/Wwise/Deployment/API/Generated/Common/ErrorCode.cs
+Assets/Wwise/Deployment/API/Generated/Common/ErrorLevel.cs
+Assets/Wwise/Deployment/API/Generated/Common/Iterator.cs
+Assets/Wwise/Deployment/API/Generated/Common/MultiPositionType.cs
+Assets/Wwise/Deployment/API/Generated/Common/Playlist.cs
+Assets/Wwise/Deployment/API/Generated/Common/PlaylistItem.cs
+Assets/Wwise/Deployment/API/Generated/Common/PreparationType.cs
+Assets/Wwise/Deployment/API/Generated/Common/RTPCValue_type.cs
+Assets/Wwise/Deployment/API/Generated/Common/WwiseObjectID.cs
+Assets/Wwise/Deployment/API/Generated/Common/WwiseObjectIDext.cs
+Assets/Wwise/Deployment/API/Generated/Mac/AkAudioOutputType_Mac.cs
+Assets/Wwise/Deployment/API/Generated/Mac/AkMemPoolAttributes_Mac.cs
+Assets/Wwise/Deployment/API/Generated/Mac/AkPlatformInitSettings_Mac.cs
+Assets/Wwise/Deployment/API/Generated/Mac/AkSoundEngine_Mac.cs
+Assets/Wwise/Deployment/API/Generated/Mac/AkSoundEnginePINVOKE_Mac.cs
+Assets/Wwise/Deployment/API/Generated/Mac/AkThreadProperties_Mac.cs
+Assets/Wwise/Deployment/API/Generated/Windows/AkAudioAPI_Windows.cs
+Assets/Wwise/Deployment/API/Generated/Windows/AkAudioOutputType_Windows.cs
+Assets/Wwise/Deployment/API/Generated/Windows/AkMemPoolAttributes_Windows.cs
+Assets/Wwise/Deployment/API/Generated/Windows/AkPlatformInitSettings_Windows.cs
+Assets/Wwise/Deployment/API/Generated/Windows/AkSoundEngine_Windows.cs
+Assets/Wwise/Deployment/API/Generated/Windows/AkSoundEnginePINVOKE_Windows.cs
+Assets/Wwise/Deployment/API/Generated/Windows/AkThreadProperties_Windows.cs
+Assets/Wwise/Deployment/API/Handwritten/AkAuxSendArray.cs
+Assets/Wwise/Deployment/API/Handwritten/AkBankManager.cs
+Assets/Wwise/Deployment/API/Handwritten/AkBasePathGetter.cs
+Assets/Wwise/Deployment/API/Handwritten/AkCallbackManager.cs
+Assets/Wwise/Deployment/API/Handwritten/AkChannelEmitterArray.cs
+Assets/Wwise/Deployment/API/Handwritten/AkPositionArray.cs
+Assets/Wwise/Deployment/API/Handwritten/AkSoundEngine.cs
+Assets/Wwise/Deployment/API/Handwritten/AkUtilities.cs
+Assets/Wwise/Deployment/API/Handwritten/WwiseTypes.cs
+Assets/Wwise/Deployment/Components/AkAmbient.cs
+Assets/Wwise/Deployment/Components/AkAudioListener.cs
+Assets/Wwise/Deployment/Components/AkBank.cs
+Assets/Wwise/Deployment/Components/AkDragDropHelper.cs
+Assets/Wwise/Deployment/Components/AkEnvironment.cs
+Assets/Wwise/Deployment/Components/AkEnvironmentPortal.cs
+Assets/Wwise/Deployment/Components/AkEvent.cs
+Assets/Wwise/Deployment/Components/AkEventCallbackData.cs
+Assets/Wwise/Deployment/Components/AkGameObj.cs
+Assets/Wwise/Deployment/Components/AkGameObjEnvironmentData.cs
+Assets/Wwise/Deployment/Components/AkGameObjListenerList.cs
+Assets/Wwise/Deployment/Components/AkGameObjPositionData.cs
+Assets/Wwise/Deployment/Components/AkGameObjPositionOffsetData.cs
+Assets/Wwise/Deployment/Components/AkGameObjPosOffsetData.cs
+Assets/Wwise/Deployment/Components/AkInitializer.cs
+Assets/Wwise/Deployment/Components/AkMemBankLoader.cs
+Assets/Wwise/Deployment/Components/AkState.cs
+Assets/Wwise/Deployment/Components/AkSwitch.cs
+Assets/Wwise/Deployment/Components/AkTerminator.cs
+Assets/Wwise/Deployment/Components/AkTriggerBase.cs
+Assets/Wwise/Deployment/Components/AkTriggerCollisionEnter.cs
+Assets/Wwise/Deployment/Components/AkTriggerCollisionExit.cs
+Assets/Wwise/Deployment/Components/AkTriggerDisable.cs
+Assets/Wwise/Deployment/Components/AkTriggerEnable.cs
+Assets/Wwise/Deployment/Components/AkTriggerEnter.cs
+Assets/Wwise/Deployment/Components/AkTriggerExit.cs
+Assets/Wwise/Deployment/Components/AkTriggerMouseDown.cs
+Assets/Wwise/Deployment/Components/AkTriggerMouseEnter.cs
+Assets/Wwise/Deployment/Components/AkTriggerMouseExit.cs
+Assets/Wwise/Deployment/Components/AkTriggerMouseUp.cs
+Assets/Wwise/Deployment/Components/AkUnityEventHandler.cs
+Assets/Wwise/Extensions/AkSoundEngine.extensions.cs
+-r:"C:\Program Files\Unity\Editor\Data\Mono\lib\mono\unity\System.Runtime.Serialization.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Mono\lib\mono\unity\System.Xml.Linq.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Mono\lib\mono\unity\UnityScript.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Mono\lib\mono\unity\UnityScript.Lang.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Mono\lib\mono\unity\Boo.Lang.dll"
+-sdk:unity

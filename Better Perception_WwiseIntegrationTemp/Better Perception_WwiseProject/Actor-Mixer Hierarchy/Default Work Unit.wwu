@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{7B881AF4-1948-4AE4-BB4A-7ECC71C82D15}" SchemaVersion="80">
+	<AudioObjects>
+		<WorkUnit Name="Default Work Unit" ID="{7B881AF4-1948-4AE4-BB4A-7ECC71C82D15}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="Footsteps" ID="{8EAE90AF-E231-4B9D-BDE3-E517E6E4B295}" ShortID="471508701">
+					<ChildrenList>
+						<Sound Name="footsteps_01" ID="{8EB65262-DF5E-4AA2-BD11-2BCBFB960C63}" ShortID="793877202">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7841A8A6-88F8-4FFD-8B8C-6F8C1FB66927}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{58802AB8-DE09-4CB8-9978-F908C7849234}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="footsteps_01" ID="{C7E3DD7B-88C2-4B48-8C60-99FC78EA2C11}" ShortID="474585535">
+									<Language>SFX</Language>
+									<AudioFile>Footsteps\footsteps_01.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="footsteps_01" ID="{C7E3DD7B-88C2-4B48-8C60-99FC78EA2C11}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="footsteps_02" ID="{00D3131F-27DC-4792-A646-758F98AF5886}" ShortID="878760662">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7841A8A6-88F8-4FFD-8B8C-6F8C1FB66927}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{58802AB8-DE09-4CB8-9978-F908C7849234}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="footsteps_02" ID="{24F1D86E-CA01-4652-8A9D-A4F0DE0D20D5}" ShortID="439342177">
+									<Language>SFX</Language>
+									<AudioFile>Footsteps\footsteps_02.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="footsteps_02" ID="{24F1D86E-CA01-4652-8A9D-A4F0DE0D20D5}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="footsteps_03" ID="{DB00CAFD-A987-4B4B-A9CC-F31408FD74C3}" ShortID="966899547">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7841A8A6-88F8-4FFD-8B8C-6F8C1FB66927}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{58802AB8-DE09-4CB8-9978-F908C7849234}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="footsteps_03" ID="{099CA350-643F-4289-A96B-1A838068B86F}" ShortID="139381781">
+									<Language>SFX</Language>
+									<AudioFile>Footsteps\footsteps_03.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="footsteps_03" ID="{099CA350-643F-4289-A96B-1A838068B86F}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="footsteps_04" ID="{84BD182E-FB0B-4C8D-95CA-897472AAE587}" ShortID="1068519235">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7841A8A6-88F8-4FFD-8B8C-6F8C1FB66927}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{58802AB8-DE09-4CB8-9978-F908C7849234}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="footsteps_04" ID="{0C49833C-20F5-477B-AF80-363F62E7C7FF}" ShortID="684903310">
+									<Language>SFX</Language>
+									<AudioFile>Footsteps\footsteps_04.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="footsteps_04" ID="{0C49833C-20F5-477B-AF80-363F62E7C7FF}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="footsteps_05" ID="{26DCDE32-A76D-4A5F-B5A3-821D10EFD441}" ShortID="1066450966">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7841A8A6-88F8-4FFD-8B8C-6F8C1FB66927}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{58802AB8-DE09-4CB8-9978-F908C7849234}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="footsteps_05" ID="{AE9C6C10-6F4B-435D-95E1-F652757362FB}" ShortID="923878994">
+									<Language>SFX</Language>
+									<AudioFile>Footsteps\footsteps_05.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="footsteps_05" ID="{AE9C6C10-6F4B-435D-95E1-F652757362FB}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="footsteps_06" ID="{D0918FB3-F28D-4939-B03F-C6BD3D29471D}" ShortID="691418239">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7841A8A6-88F8-4FFD-8B8C-6F8C1FB66927}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{58802AB8-DE09-4CB8-9978-F908C7849234}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="footsteps_06" ID="{443E4A5D-C429-47DD-B437-9C337358270A}" ShortID="327116532">
+									<Language>SFX</Language>
+									<AudioFile>Footsteps\footsteps_06.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="footsteps_06" ID="{443E4A5D-C429-47DD-B437-9C337358270A}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="footsteps_07" ID="{D3F65B47-93F0-4E69-9A69-BC8E9F06E2C1}" ShortID="424855940">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7841A8A6-88F8-4FFD-8B8C-6F8C1FB66927}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{58802AB8-DE09-4CB8-9978-F908C7849234}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="footsteps_07" ID="{6B1554F3-CD69-45D8-88C8-859F1452D36A}" ShortID="381244562">
+									<Language>SFX</Language>
+									<AudioFile>Footsteps\footsteps_07.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="footsteps_07" ID="{6B1554F3-CD69-45D8-88C8-859F1452D36A}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="footsteps_08" ID="{5FF5D8B3-013C-49D9-AC8D-9CF57D093CE5}" ShortID="957167290">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7841A8A6-88F8-4FFD-8B8C-6F8C1FB66927}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{58802AB8-DE09-4CB8-9978-F908C7849234}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="footsteps_08" ID="{F70B90E7-5944-468F-90ED-15093E785E1D}" ShortID="805749398">
+									<Language>SFX</Language>
+									<AudioFile>Footsteps\footsteps_08.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="footsteps_08" ID="{F70B90E7-5944-468F-90ED-15093E785E1D}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

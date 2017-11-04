@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="11" SoundbankVersion="125">
+	<RootPaths>
+		<ProjectRoot>C:\Users\ASUS\Documents\Unity_Perception\Better Perception_WwiseIntegrationTemp\Better Perception_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\ASUS\Documents\Unity_Perception\Better Perception_WwiseIntegrationTemp\Better Perception_WwiseProject\.cache\Mac\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\ASUS\Documents\Unity_Perception\Better Perception_WwiseIntegrationTemp\Better Perception_WwiseProject\GeneratedSoundBanks\Mac\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>C:\Users\ASUS\Documents\Unity_Perception\Better Perception_WwiseIntegrationTemp\Better Perception_WwiseProject\GeneratedSoundBanks\Mac\</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Language="SFX">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="2385628198" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\Footsteps</ObjectPath>
+			<ShortName>Footsteps</ShortName>
+			<Path>Footsteps.bnk</Path>
+			<IncludedEvents>
+				<Event Id="1866025847" Name="Footstep" ObjectPath="\Events\Default Work Unit\Footstep"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="139381781" Language="SFX">
+					<ShortName>Footsteps\footsteps_03.wav</ShortName>
+					<Path>SFX\Footsteps\footsteps_03_1C9C67B2.wem</Path>
+				</File>
+				<File Id="327116532" Language="SFX">
+					<ShortName>Footsteps\footsteps_06.wav</ShortName>
+					<Path>SFX\Footsteps\footsteps_06_1C9C67B2.wem</Path>
+				</File>
+				<File Id="381244562" Language="SFX">
+					<ShortName>Footsteps\footsteps_07.wav</ShortName>
+					<Path>SFX\Footsteps\footsteps_07_1C9C67B2.wem</Path>
+				</File>
+				<File Id="439342177" Language="SFX">
+					<ShortName>Footsteps\footsteps_02.wav</ShortName>
+					<Path>SFX\Footsteps\footsteps_02_1C9C67B2.wem</Path>
+				</File>
+				<File Id="474585535" Language="SFX">
+					<ShortName>Footsteps\footsteps_01.wav</ShortName>
+					<Path>SFX\Footsteps\footsteps_01_1C9C67B2.wem</Path>
+				</File>
+				<File Id="684903310" Language="SFX">
+					<ShortName>Footsteps\footsteps_04.wav</ShortName>
+					<Path>SFX\Footsteps\footsteps_04_1C9C67B2.wem</Path>
+				</File>
+				<File Id="805749398" Language="SFX">
+					<ShortName>Footsteps\footsteps_08.wav</ShortName>
+					<Path>SFX\Footsteps\footsteps_08_1C9C67B2.wem</Path>
+				</File>
+				<File Id="923878994" Language="SFX">
+					<ShortName>Footsteps\footsteps_05.wav</ShortName>
+					<Path>SFX\Footsteps\footsteps_05_1C9C67B2.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>
